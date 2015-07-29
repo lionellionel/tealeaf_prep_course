@@ -1,0 +1,6 @@
+numbers.delete_at(1)
+=> [1, 3, 4, 5]
+because delete_at refers to the array index
+numbers.delete(1)
+=> [2, 3, 4, 5]
+becaues delete refers to the value

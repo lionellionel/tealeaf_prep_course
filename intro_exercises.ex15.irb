@@ -1,0 +1,10 @@
+=> ["ice"]
+irb(main):008:0> arr = ['snow', 'winter', 'ice', 'slippery', 'salted roads', 'white trees']
+=> ["snow", "winter", "ice", "slippery", "salted roads", "white trees"]
+irb(main):009:0> arr.delete_if{|x| x.start_with?('s')}
+=> ["winter", "ice", "white trees"]
+irb(main):010:0> arr = ['snow', 'winter', 'ice', 'slippery', 'salted roads', 'white trees']
+=> ["snow", "winter", "ice", "slippery", "salted roads", "white trees"]
+irb(main):011:0> arr.delete_if{|x| x.start_with?('s') || x.start_with?('w')}
+=> ["ice"]
+

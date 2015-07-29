@@ -1,0 +1,8 @@
+irb(main):023:0> statement.split('')
+=> ["T", "h", "e", " ", "F", "l", "i", "n", "t", "s", "t", "o", "n", "e", "s", " ", "R", "o", "c", "k", "!"]
+irb(main):024:0> statement.split('').count{|x| x =~ /[a-z]/}
+=> 15
+irb(main):025:0> statement.split('').count{|x| x =~ /[A-Z]/}
+=> 3
+irb(main):026:0> 
+

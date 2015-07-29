@@ -1,0 +1,15 @@
+irb(main):014:0> if false
+irb(main):015:1>   greeting = \U+FFE2hello world\U+FFE2
+irb(main):016:1> end
+=> nil
+irb(main):017:0> 
+irb(main):018:0* greeting
+=> nil
+irb(main):019:0> jkljl
+NameError: undefined local variable or method `jkljl' for main:Object
+  from (irb):19
+  from /Users/limoore/.rbenv/versions/2.0.0-p247/bin/irb:12:in `<main>'
+irb(main):020:0> 
+
+well well.
+looks like ruby initializes the variable regardless

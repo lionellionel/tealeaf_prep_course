@@ -1,0 +1,19 @@
+irb(main):021:0> numbers = [1, 2, 3, 4]
+=> [1, 2, 3, 4]
+irb(main):022:0> numbers.each do |number|
+irb(main):023:1*   p number
+irb(main):024:1>   numbers.shift(1)
+irb(main):025:1> end
+1
+3
+=> [3, 4]
+irb(main):026:0> numbers = [1, 2, 3, 4]
+=> [1, 2, 3, 4]
+irb(main):027:0> numbers.each do |number|
+irb(main):028:1*   p number
+irb(main):029:1>   numbers.pop(1)
+irb(main):030:1> end
+1
+2
+=> [1, 2]
+

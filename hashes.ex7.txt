@@ -1,0 +1,7 @@
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+
+my_hash2 uses a string as its key
+my_hash uses a symbol as its key, which is 
+ less mutable and takes less memory?

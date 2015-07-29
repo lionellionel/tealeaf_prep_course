@@ -1,0 +1,6 @@
+irb(main):001:0> our_shopping_lists = { mom: ['diapers','lipstick'], dad: ['chainsaw','beer'] }
+=> {:mom=>["diapers", "lipstick"], :dad=>["chainsaw", "beer"]}
+irb(main):002:0> rocky_movies = [ { year: 1976, oscars: 3, mr_t: 0}, { year: 1979, oscars: 0, mr_t: 0}, { year: 1982, oscars: 0, mr_t: 1} ]
+=> [{:year=>1976, :oscars=>3, :mr_t=>0}, {:year=>1979, :oscars=>0, :mr_t=>0}, {:year=>1982, :oscars=>0, :mr_t=>1}]
+irb(main):003:0> 
+

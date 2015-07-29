@@ -1,0 +1,15 @@
+x = [1, 2, 3, 4, 5]
+x.each do |a|
+  a + 1
+end
+
+yields [1,2,3,4,5]
+
+that is, x at the end of executing
+interesting:
+irb(main):008:0> x.each do |a|
+irb(main):009:1* x.pop
+irb(main):010:1> end
+=> [1, 2]
+irb(main):011:0> 
+

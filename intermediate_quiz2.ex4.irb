@@ -1,0 +1,5 @@
+irb(main):062:0> sentence = "Humpty Dumpty sat on a wall."
+=> "Humpty Dumpty sat on a wall."
+irb(main):063:0> sentence.split(/\s/).reverse.join(" ")
+=> "wall. a on sat Dumpty Humpty"
+irb(main):064:0>

@@ -1,0 +1,2 @@
+typed a ) when a } was intended.
+a syntax highlighting IDE or editor could have caugt it

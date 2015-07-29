@@ -1,0 +1,3 @@
+method rolling_buffer1 alters the array passed into it, whereas
+method rolling_buffer2 returns a new object 
+preference just depends on what you're trying to achieve

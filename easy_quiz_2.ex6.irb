@@ -1,0 +1,8 @@
+=> {"Herman"=>32, "Lily"=>30, "Grandpa"=>5843, "Eddie"=>10, "Marilyn"=>22, "Spot"=>237}
+irb(main):016:0> ages.min_by{|k,v| v}
+=> ["Eddie", 10]
+irb(main):017:0> ages.min_by{|k,v| k.length}
+=> ["Lily", 30]
+irb(main):018:0>ages.values.min
+=> 10
+ 

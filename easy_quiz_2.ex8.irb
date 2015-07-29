@@ -1,0 +1,5 @@
+irb(main):022:0> flintstones = %w(Fred Barney Wilma Betty BamBam Pebbles)
+=> ["Fred", "Barney", "Wilma", "Betty", "BamBam", "Pebbles"]
+irb(main):023:0> flintstones.index { |x| x[0, 2] == "Be" }
+=> 3
+irb(main):024:0> 

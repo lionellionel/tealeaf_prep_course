@@ -1,0 +1,8 @@
+irb(main):043:0> newf={}
+=> {}
+irb(main):044:0> flintstones.each_with_index{|v,i| newf[v]=i}
+=> ["Fred", "Barney", "Wilma", "Betty", "Pebbles", "BamBam"]
+irb(main):045:0> newf
+=> {"Fred"=>0, "Barney"=>1, "Wilma"=>2, "Betty"=>3, "Pebbles"=>4, "BamBam"=>5}
+irb(main):046:0> 
+

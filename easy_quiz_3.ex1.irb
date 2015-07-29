@@ -1,0 +1,5 @@
+irb(main):001:0> flintstones = ["Fred", "Barney", "Wilma", "Betty", "BamBam", "Pebbles"]
+=> ["Fred", "Barney", "Wilma", "Betty", "BamBam", "Pebbles"]
+irb(main):002:0> flintstones_another_way = %w(Fred Barney Wilma Betty BamBam Pebbles)
+=> ["Fred", "Barney", "Wilma", "Betty", "BamBam", "Pebbles"]
+irb(main):003:0> 

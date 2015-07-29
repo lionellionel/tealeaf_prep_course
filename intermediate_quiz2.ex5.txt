@@ -1,0 +1,19 @@
+irb(main):064:0> answer = 42
+=> 42
+irb(main):065:0> 
+irb(main):066:0* def mess_with_it(some_number)
+irb(main):067:1>   some_number += 8
+irb(main):068:1> end
+=> nil
+irb(main):069:0> 
+irb(main):070:0* new_answer = mess_with_it(answer)
+=> 50
+irb(main):071:0> 
+irb(main):072:0* p answer - 8
+34
+=> 34
+
+http://ruby-doc.org/core-2.2.0/Numeric.html#method-i-initialize_copy
+"Numerics are immutable values, which should not be copied."
+
+Does this mean I couldn't redefine the method to actually mess with it if I tried?

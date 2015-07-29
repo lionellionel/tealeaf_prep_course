@@ -1,0 +1,15 @@
+1. what is != and where should you use it?
+    that's an evaluation test and returns a boolean
+2. put ! before something, like !user_name
+    returns the opposite of user_name(boolean)
+3. put ! after something, like words.uniq!
+    represents desructive method
+    "!" does not modify the method named "uniq"
+    rather, "uniq!" is its own method
+4. put ? before something
+    typically used for terniary operations
+5. put ? after something
+    like #3, part of method name, not ruby syntax
+    generally represents is_a? contains? type of action
+6. put !! before something, like !!user_name
+    returns boolean on user_name

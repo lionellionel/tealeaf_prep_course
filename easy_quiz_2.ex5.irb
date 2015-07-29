@@ -1,0 +1,7 @@
+irb(main):012:0> ages = { "Herman" => 32, "Lily" => 30, "Grandpa" => 5843, "Eddie" => 10 }
+=> {"Herman"=>32, "Lily"=>30, "Grandpa"=>5843, "Eddie"=>10}
+irb(main):013:0> additional_ages = { "Marilyn" => 22, "Spot" => 237 }
+=> {"Marilyn"=>22, "Spot"=>237}
+irb(main):014:0> ages.merge(additional_ages)
+=> {"Herman"=>32, "Lily"=>30, "Grandpa"=>5843, "Eddie"=>10, "Marilyn"=>22, "Spot"=>237}
+irb(main):015:0> 

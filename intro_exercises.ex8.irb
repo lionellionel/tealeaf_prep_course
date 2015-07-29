@@ -1,0 +1,5 @@
+irb(main):002:0> style1 = { 'breakfast' => 'eggs', 'dinner' => 'steak' }
+=> {"breakfast"=>"eggs", "dinner"=>"steak"}
+irb(main):003:0> style2 = { breakfast: 'eggs', dinner: 'steak' }
+=> {:breakfast=>"eggs", :dinner=>"steak"}
+irb(main):004:0> 

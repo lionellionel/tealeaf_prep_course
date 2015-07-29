@@ -1,0 +1,5 @@
+puts rps(rps(rps("rock", "paper"), rps("rock", "scissors")), "rock")
+puts rps(rps(rps("rock", "paper"), ROCK                   ), "rock")
+puts rps(rps( PAPER              , ROCK                   ), "rock")
+puts rps( PAPER                                            , "rock")
+puts PAPER

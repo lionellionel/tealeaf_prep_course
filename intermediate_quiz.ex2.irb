@@ -1,0 +1,9 @@
+irb(main):016:0> statement = "The Flintstones Rock"
+=> "The Flintstones Rock"
+irb(main):017:0> histogram={}
+=> {}
+irb(main):018:0> statement.split("").uniq.each{|x| histogram[x] = statement.count(x)}
+=> ["T", "h", "e", " ", "F", "l", "i", "n", "t", "s", "o", "R", "c", "k"]
+irb(main):019:0> histogram
+=> {"T"=>1, "h"=>1, "e"=>2, " "=>2, "F"=>1, "l"=>1, "i"=>1, "n"=>2, "t"=>2, "s"=>2, "o"=>2, "R"=>1, "c"=>1, "k"=>1}
+irb(main):020:0> 

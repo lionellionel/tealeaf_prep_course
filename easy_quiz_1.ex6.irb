@@ -1,0 +1,8 @@
+irb(main):022:0> famous_words = "and seven years ago..."
+=> "and seven years ago..."
+irb(main):023:0> famous_words = "Four score " + famous_words
+=> "Four score and seven years ago..."
+irb(main):024:0> famous_words = "and seven years ago..."
+=> "and seven years ago..."
+irb(main):025:0> famous_words.sub(/^/,"Four socre ")
+=> "Four socre and seven years ago..."

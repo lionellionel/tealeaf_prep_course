@@ -1,0 +1,5 @@
+Hashes are indexed by any object (typically a string or symbol)
+Arrays are indexed by Integers (0..n) only
+Arrays are always ordered.  
+Ordered hashes only available in versions > 1.8.7
+

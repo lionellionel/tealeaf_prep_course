@@ -1,0 +1,5 @@
+irb(main):001:0> arr = [["test", "hello", "world"],["example", "mem"]]
+=> [["test", "hello", "world"], ["example", "mem"]]
+irb(main):002:0> arr[1][0]
+=> "example"
+irb(main):003:0> 

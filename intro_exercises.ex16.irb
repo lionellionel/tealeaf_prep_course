@@ -1,0 +1,5 @@
+irb(main):018:0> a = ['white snow', 'winter wonderland', 'melting ice', 'slippery sidewalk', 'salted roads', 'white trees']
+=> ["white snow", "winter wonderland", "melting ice", "slippery sidewalk", "salted roads", "white trees"]
+irb(main):019:0> a.map{|x| x.split}.flatten
+=> ["white", "snow", "winter", "wonderland", "melting", "ice", "slippery", "sidewalk", "salted", "roads", "white", "trees"]
+

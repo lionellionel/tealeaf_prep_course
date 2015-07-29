@@ -1,0 +1,9 @@
+irb(main):034:0> munsters
+=> {"Herman"=>{"age"=>32, "gender"=>"male"}, "Lily"=>{"age"=>30, "gender"=>"female"}, "Grandpa"=>{"age"=>402, "gender"=>"male"}, "Eddie"=>{"age"=>10, "gender"=>"male"}}
+irb(main):035:0> counts=0
+=> 0
+irb(main):036:0> munsters.each{|k,v| counts += v["age"] if v["gender"]=='male'}
+=> {"Herman"=>{"age"=>32, "gender"=>"male"}, "Lily"=>{"age"=>30, "gender"=>"female"}, "Grandpa"=>{"age"=>402, "gender"=>"male"}, "Eddie"=>{"age"=>10, "gender"=>"male"}}
+irb(main):037:0> counts
+=> 444
+

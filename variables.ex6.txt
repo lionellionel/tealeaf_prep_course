@@ -1,0 +1,2 @@
+you said shoes, but it wasn't defined yet, 
+or wasn't defined in the scope invoked in

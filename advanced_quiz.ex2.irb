@@ -1,0 +1,15 @@
+rb(main):021:0* 
+irb(main):022:0* greetings = { a: 'hi' }
+=> {:a=>"hi"}
+irb(main):023:0> informal_greeting = greetings[:a]
+=> "hi"
+irb(main):024:0> informal_greeting << ' there'
+=> "hi there"
+irb(main):025:0> 
+irb(main):026:0* puts informal_greeting  #  => "hi there"
+hi there
+=> nil
+irb(main):027:0> puts greetings
+{:a=>"hi there"}
+=> nil
+

@@ -1,0 +1,6 @@
+irb(main):026:0> flintstones = %w(Fred Barney Wilma Betty BamBam Pebbles)
+=> ["Fred", "Barney", "Wilma", "Betty", "BamBam", "Pebbles"]
+irb(main):027:0> flintstones.map!{|x| x[0,3]}
+=> ["Fre", "Bar", "Wil", "Bet", "Bam", "Peb"]
+irb(main):028:0> flintstones
+=> ["Fre", "Bar", "Wil", "Bet", "Bam", "Peb"]

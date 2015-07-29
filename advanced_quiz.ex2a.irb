@@ -1,0 +1,42 @@
+irb(main):030:0> twokeys = { a: "hi", b: "yo"}
+=> {:a=>"hi", :b=>"yo"}
+irb(main):031:0> thingthing = twokeys[:a]
+=> "hi"
+irb(main):032:0> thingthing
+=> "hi"
+irb(main):033:0> twokeys.object_id
+=> 70159914015000
+irb(main):034:0> thingthing.object_id
+=> 70159914015060
+irb(main):035:0> twokeys.class
+=> Hash
+irb(main):036:0> thingthing.class
+=> String
+irb(main):037:0> twokeys[:a]
+=> "hi"
+irb(main):038:0> thingthing[:a]
+TypeError: no implicit conversion of Symbol into Integer
+  from (irb):38:in `[]'
+  from (irb):38
+  from /Users/limoore/.rbenv/versions/2.0.0-p247/bin/irb:12:in `<main>'
+irb(main):039:0> twokeys
+=> {:a=>"hi", :b=>"yo"}
+irb(main):040:0> thingthing << ' thing suffix'
+=> "hi thing suffix"
+irb(main):041:0> thingthing
+=> "hi thing suffix"
+irb(main):042:0> twokeys
+=> {:a=>"hi thing suffix", :b=>"yo"}
+irb(main):043:0> twothings[:a].object_id
+NameError: undefined local variable or method `twothings' for main:Object
+  from (irb):43
+  from /Users/limoore/.rbenv/versions/2.0.0-p247/bin/irb:12:in `<main>'
+irb(main):044:0> twokeys[:a].object_id
+=> 70159914015060
+irb(main):045:0> 
+
+So this looks like when I create an object, like Hash, it's creating 
+a bunch of sub objects?  If that is the case, then your statement
+"The reason is because informal_greeting is a reference to the original object."
+should read
+"is a reference to a sub object of the original object"

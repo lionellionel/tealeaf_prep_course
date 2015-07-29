@@ -1,0 +1,12 @@
+irb(main):001:0> ages = { "Herman" => 32, "Lily" => 30, "Grandpa" => 402, "Eddie" => 10 }
+=> {"Herman"=>32, "Lily"=>30, "Grandpa"=>402, "Eddie"=>10}
+irb(main):004:0> !!ages.assoc("Spot")
+=> false
+irb(main):005:0> !!ages.assoc("Herman")
+=> true
+irb(main):006:0> ages.has_key?("Spot")
+=> false
+irb(main):007:0> ages.has_key?("Herman")
+=> true
+irb(main):008:0> 
+

@@ -1,0 +1,14 @@
+irb(main):012:0> def between_power_1_2_of_10(num)
+irb(main):013:1>   case num
+irb(main):014:2>     when (10..100)
+irb(main):015:2>       true
+irb(main):016:2>     else
+irb(main):017:2*       false
+irb(main):018:2>     end
+irb(main):019:1> end
+=> nil
+irb(main):020:0> between_power_1_2_of_10(42)
+=> true
+irb(main):021:0> between_power_1_2_of_10(142)
+=> false
+irb(main):022:0> 

@@ -1,0 +1,19 @@
+irb(main):001:0> def color_valid(color)
+irb(main):002:1>   if color == "blue" || color == "green"
+irb(main):003:2>     true
+irb(main):004:2>   else
+irb(main):005:2*     false
+irb(main):006:2>   end
+irb(main):007:1> end
+=> nil
+irb(main):008:0> color_valid("blue")
+=> true
+irb(main):009:0> def color_valid2(color)
+irb(main):010:1>   color == "blue" || color == "green"
+irb(main):011:1> end
+=> nil
+irb(main):012:0> color_valid2("blue")
+=> true
+irb(main):013:0> color_valid2("bluex")
+=> false
+

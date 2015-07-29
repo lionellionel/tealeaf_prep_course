@@ -1,0 +1,3 @@
+irb(main):003:0> flintstones << "Dino"
+=> ["Fred", "Barney", "Wilma", "Betty", "BamBam", "Pebbles", "Dino"]
+irb(main):004:0> 

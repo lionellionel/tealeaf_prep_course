@@ -1,0 +1,19 @@
+given:
+
+def add_eight(number)
+  number + 8
+end
+
+number = 2
+
+how_deep = "number"
+5.times { how_deep.gsub!("number", "add_eight(number)") }
+
+p how_deep
+
+eval(how_deep)
+
+how_deep will be 5 nests of add_eight(number), i.e.
+"add_eight(add_eight(add_eight(add_eight(add_eight(number)))))"
+
+eval of it will be 8*5+2=42
